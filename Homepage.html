@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>RGU Homepage</title>
-    <link rel="stylesheet" href="unsemantc-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="MainCSS.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
@@ -17,7 +16,7 @@
 
 <main>
 
-    <section class="nav">
+    <div class="nav">
         <ul>
         <!--- Styling of navigation bar needs to be included --->
         <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
@@ -44,22 +43,23 @@
              <!--- Search bar needs to be moved to the rigt of the navigation bar --->
             <input type="text" name="search" placeholder="Search...">
         </ul>
-    </section>
-/
-    <div class="header">
+    </div>
 
+    <div class="header">
         <!--- School heading and image --->
         <!--- Positioning text that is layered above image, needs to be re-done in the CSS --->
-        <div style="position: absolute; top:380px; left:10px; width:600px; height:25px;">School of Computing Science and Digital Media
-        </div>
+
 
         <!--- Placeholder image is only used until we have actual images decided, sizing needs to be re-done in CSS --->
-        <p><img src="http://s3.amazonaws.com/assets.prod.vetstreet.com/2a/cd/ee484be546418f40cc3cbc194b52/kitten-in-arms-thinkstockphotos-106397271-335lc070915jpg.jpg" height="300" width="939"></p>
-
+        <div class="banner">
+            <img src="http://s3.amazonaws.com/assets.prod.vetstreet.com/2a/cd/ee484be546418f40cc3cbc194b52/kitten-in-arms
+            -thinkstockphotos-106397271-335lc070915jpg.jpg" height="300" width="939">
+        </div>
+        <h1>School of Computing Science and Digital Media</h1>
     </div>
 
     <!--- Main section of the webpage --->
-    <section class="body">
+    <div class="body">
 
         <!--- Left Text --->
         <!--- Text to be re-positioned and centered in CSS --->
@@ -121,7 +121,7 @@
         <!--- Middle Text Under Second Heading --->
         <!--- Text too be added and re-positioned in CSS --->
         <div style="position: absolute; top:725px; left:650px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hi hjgvyihukjhbgv</div>
-    </section>
+    </div>
 
 <<<<<<< HEAD
 
