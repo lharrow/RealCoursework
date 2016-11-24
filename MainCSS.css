@@ -1,0 +1,100 @@
+
+/* Styling of Website (Font and Colours) */
+* {
+    font-family: 'Roboto', sans-serif;
+    Tahoma, Geneva, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+
+/* Navigation Bar */
+
+.nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+    position: fixed;
+    top: 5px;
+    width: 100%;
+}
+
+
+li {
+    float: left;
+    border-right:1px solid #dcdcdc;
+}
+
+li a {
+    display: block;
+    color: #681DAE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #9d90cd;
+}
+
+.active {
+    background-color: #9d90cd;
+    }
+}
+
+/* Header Image */
+
+.header{
+
+    .banner{
+    padding: 1px 1px;
+    }
+}
+
+/* Body */
+
+.body{
+    padding: 1px 1px;
+
+}
+
+
+/* Side Navigation Bar */
+
+.sidebar {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    }
+}
+
