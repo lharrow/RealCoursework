@@ -4,56 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <title>RGU Homepage</title>
+    <link rel="stylesheet" href="unsemantc-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="MainCSS.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
+
 <header>
+
 </header>
+
 <main>
 
-    <section class="Navigation">
+    <section class="nav">
+        <ul>
         <!--- Styling of navigation bar needs to be included --->
         <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
         Image is sized but will be resized in CSS -->
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png" height="70" width="170">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png"
+             alt= RGU Logo height="40" width="200">
 
-        <!--- White spacing and link to 'Home' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Home.html">Home</a>
+             <!--- White spacing and link to 'Home' page --->
+            <li><a href="/Users/Lewis/Desktop/Website/Home.html">Home</a></li>
 
-        <!--- White spacing and link to 'Course' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Courses.html">Courses</a>
+            <!--- White spacing and link to 'Course' page --->
+             <li> <a href="/Users/Lewis/Desktop/Website/Courses.html">Courses</a></li>
 
-        <!--- White spacing and link to 'Staff' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Staff.html">Staff</a>
+             <!--- White spacing and link to 'Staff' page --->
+             <li><a href="/Users/Lewis/Desktop/Website/Staff.html">Staff</a></li>
 
-        <!--- White spacing and link to 'News' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/News.html">News</a>
+            <!--- White spacing and link to 'News' page --->
+             <li><a href="/Users/Lewis/Desktop/Website/News.html">News</a></li>
 
-        <!--- White spacing and link to 'Contact' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Contact.html">Contact</a>
+             <!--- White spacing and link to 'Contact' page --->
+             <li><a href="/Users/Lewis/Desktop/Website/Contact.html">Contact</a></li>
 
-        <!--- White spacing and search bar --->
-        <!--- Search bar needs to be moved to the rigt of the navigation bar --->
-        <input type="text" name="search" placeholder="Search..">
-
+            <!--- White spacing and search bar --->
+             <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <input type="text" name="search" placeholder="Search...">
+        </ul>
     </section>
-
-    <section class="Header">
+/
+    <div class="header">
 
         <!--- School heading and image --->
         <!--- Positioning text that is layered above image, needs to be re-done in the CSS --->
-        <DIV style="position: absolute; top:380px; left:10px; width:400px; height:25px;">School of Computing Science and Digital Media</DIV>
+        <div style="position: absolute; top:380px; left:10px; width:600px; height:25px;">School of Computing Science and Digital Media
+        </div>
 
         <!--- Placeholder image is only used until we have actual images decided, sizing needs to be re-done in CSS --->
         <p><img src="http://s3.amazonaws.com/assets.prod.vetstreet.com/2a/cd/ee484be546418f40cc3cbc194b52/kitten-in-arms-thinkstockphotos-106397271-335lc070915jpg.jpg" height="300" width="939"></p>
 
-    </section>
+    </div>
 
     <!--- Main section of the webpage --->
-    <section class="PageBody">
+    <section class="body">
 
         <!--- Left Text --->
         <!--- Text to be re-positioned and centered in CSS --->
-        <DIV style="position: absolute; top:421px; left:75px; width:400px; height:25px;"><strong>Why Study Computing Here</strong></DIV>
+        <div style="position: absolute; top:421px; left:75px; width:400px; height:25px;"><strong>Why Study Computing Here</strong></div>
 
         <!--- Left Image --->
         <!--- Placeholder image until we decide on final images. Image re-sizing to be re-done in CSS --->
@@ -61,7 +71,7 @@
 
         <!--- Middle Text --->
         <!--- Text to be re-positioned and centered in the CSS --->
-        <DIV style="position: absolute; top:421px; left:395px; width:400px; height:25px;"><strong>Computing Degree Courses</strong></DIV>
+        <div style="position: absolute; top:421px; left:395px; width:400px; height:25px;"><strong>Computing Degree Courses</strong></div>
 
         <!--- Middle Text --->
         <!--- Image to be re-positioned in the CSS --->
@@ -69,7 +79,7 @@
 
         <!--- Right Text --->
         <!--- Text to be re-positioned and centred in CSS --->
-        <DIV style="position: absolute; top:421px; left:750px; width:400px; height:25px;"><strong>School Facilities</strong></DIV>
+        <div style="position: absolute; top:421px; left:750px; width:400px; height:25px;"><strong>School Facilities</strong></div>
 
         <!--- Right Image --->
         <!--- Image to be re-positioned in the CSS --->
@@ -77,41 +87,48 @@
 
         <!--- Left Text Under Image --->
         <!--- Text to be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:600px; left:50px; width:400px; height:25px;"> kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:600px; left:50px; width:400px; height:25px;"> kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</div>
 
         <!--- Middle Text Under Image --->
         <!--- Text to be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:600px; left:350px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:600px; left:350px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</div>
 
         <!--- Right Text Under Image --->
         <!--- Text to be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:600px; left:650px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:600px; left:650px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</div>
+
 
         <!--- Left Second Heading --->
         <!--- Text to be made bold and re-positioned in CSS --->
-        <DIV style="position: absolute; top:690px; left:110px; width:400px; height:25px;"><strong>Computing News</strong></DIV>
+        <div style="position: absolute; top:690px; left:110px; width:400px; height:25px;"><strong>Computing News</strong></div>
 
         <!--- Left Text Under Second Heading --->
         <!--- Text to be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:725px; left:50px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:725px; left:50px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</div>
 
         <!--- Middle Second Heading --->
         <!--- Text to be made bold re-positioned in CSS --->
-        <DIV style="position: absolute; top:690px; left:425px; width:400px; height:25px;"><strong>Computing Events</strong></DIV>
+        <div style="position: absolute; top:690px; left:425px; width:400px; height:25px;"><strong>Computing Events</strong></div>
 
         <!--- Middle Text Under Second Heading --->
         <!--- Text too be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:725px; left:350px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:725px; left:350px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hjgvyihukjhbgv</div>
 
         <!--- Right Second Heading --->
         <!--- Text to be made bold and re-positioned in CSS --->
-        <DIV style="position: absolute; top:690px; left:730px; width:400px; height:25px;"><strong>Computing Placements</strong></DIV>
+        <div style="position: absolute; top:690px; left:730px; width:400px; height:25px;"><strong>Computing Placements</strong></div>
 
         <!--- Middle Text Under Second Heading --->
         <!--- Text too be added and re-positioned in CSS --->
-        <DIV style="position: absolute; top:725px; left:650px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hi hjgvyihukjhbgv</DIV>
+        <div style="position: absolute; top:725px; left:650px; width:400px; height:25px;">kdjh dkjgksb dshbjfdsjf fhdskbgms<BR/>dfjfdklfdjkn<BR/>hi hjgvyihukjhbgv</div>
     </section>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 </main>
 </body>
+
+
 </html>

@@ -3,37 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Courses</title>
+    <link rel="stylesheet" href="unsemantc-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="MainCSS.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
 <header>
 </header>
 
 <main>
-    <section class="Navigation">
 
-        <!--- Styling of navigation bar needs to be included --->
-        <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
-        Image is sized but will be resized in CSS -->
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png" height="70" width="170">
+    <section class="nav">
+        <ul>
 
-        <!--- White spacing and link to 'Home' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Home.html">Home</a>
+            <!--- Styling of navigation bar needs to be included --->
+            <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
+            Image is sized but will be resized in CSS -->
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png"
+                 alt= RGU Logo height="40" width="200">
 
-        <!--- White spacing and link to 'Course' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Courses">Courses</a>
 
-        <!--- White spacing and link to 'Staff' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Staff.html">Staff</a>
+            <!--- White spacing and link to 'Home' page --->
+            <li><a href="/Users/Lewis/Desktop/Website/Home.html">Home</a></li>
 
-        <!--- White spacing and link to 'News' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/News.html">News</a>
+            <!--- White spacing and link to 'Course' page --->
+            <li> <a href="/Users/Lewis/Desktop/Website/Courses.html">Courses</a></li>
 
-        <!--- White spacing and link to 'Contact' page --->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Users/Lewis/Desktop/Website/Contact.html">Contact</a>
+            <!--- White spacing and link to 'Staff' page --->
+            <li><a href="/Users/Lewis/Desktop/Website/Staff.html">Staff</a></li>
 
-        <!--- White spacing and search bar --->
-        <!--- Search bar needs to be moved to the rigt of the navigation bar --->
-        <input type="text" name="search" placeholder="Search..">
+            <!--- White spacing and link to 'News' page --->
+            <li><a href="/Users/Lewis/Desktop/Website/News.html">News</a></li>
+
+            <!--- White spacing and link to 'Contact' page --->
+            <li><a href="/Users/Lewis/Desktop/Website/Contact.html">Contact</a></li>
+
+            <!--- White spacing and search bar --->
+            <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <input type="text" name="search" placeholder="Search...">
+        </ul>
 
     </section>
 
@@ -47,7 +56,10 @@
 
     </section>
 
-    <section class="Sidebar">
+    <section class="sidebar">
+
+        <ul>
+
         <!--- Sidebar for navigation, 'Undergraduate' --->
         <strong>Study Options</strong>
         <p><a href="/Users/Lewis/Desktop/Website/Courses/Undergraduate.html">Undergraduate </a></p>
@@ -66,6 +78,9 @@
 
         <!-- 'Short Courses' --->
         <a href="/Users/Lewis/Desktop/Website/Courses/ShortCourses.html">Short Courses</a>
+
+        </ul>
+
     </section>
 
     <section class="Headers">
