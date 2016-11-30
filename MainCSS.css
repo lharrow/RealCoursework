@@ -41,11 +41,13 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #9d90cd;
+    color:white;
+
 }
 
 .active {
-    background-color: #9d90cd;
-    }
+    background-color: #c4a8cd;
+    color:white;
 }
 
 /* Header Image */
