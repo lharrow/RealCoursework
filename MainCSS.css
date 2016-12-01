@@ -26,6 +26,16 @@ ul {
     width: 100%;
 }
 
+/* Navigation Bar Image */
+
+.nav img {
+
+    alt= RGU Logo;
+    height: 40px;
+    width: 200px
+
+}
+
 
 li {
     float: left;
@@ -51,7 +61,7 @@ li a:hover:not(.active) {
     color:white;
 }
 
-/* Header Image */
+/* Header */
 
 .header {
 
@@ -62,6 +72,8 @@ li a:hover:not(.active) {
     padding: 1px 1px;
 
 }
+
+/* Header Image */
 
 .banner img {
     height: 100%;
