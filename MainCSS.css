@@ -30,7 +30,7 @@ ul {
 
 .nav img {
 
-    alt= RGU Logo;
+    alt: RGU Logo;
     height: 40px;
     width: 200px
 
@@ -83,11 +83,10 @@ li a:hover:not(.active) {
 
 /* Body */
 
-.body{
+.body {
     padding: 1px 1px;
 
 }
-
 
 /* Side Navigation Bar */
 
@@ -119,7 +118,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #c4a8cd;
     color: white;
     }
 
