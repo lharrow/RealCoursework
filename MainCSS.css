@@ -83,9 +83,33 @@ li a:hover:not(.active) {
 
 /* Body */
 
+/* Do we want this to be expandable/contractible like the banner? */
+
 .body {
     padding: 1px 1px;
+}
+#firstText {
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
 
+#secondText {
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 380px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#thirdText {
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 730px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 /* Side Navigation Bar */
