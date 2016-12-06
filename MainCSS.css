@@ -167,6 +167,42 @@ li a:hover:not(.active) {
     font-size: 15px;
 }
 
+#textFive {
+
+    position: absolute;
+    padding-top: 295px;
+    padding-left: 320px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#headerSix {
+
+    position: absolute;
+    padding-top: 265px;
+    padding-left: 700px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#textSix {
+
+    position: absolute;
+    padding-top: 295px;
+    padding-left: 640px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#imageOne img {
+
+    position: absolute;
+    height: 125px;
+    width: 308px;
+    padding-top: 43px;
+    padding-left: 1px;
+}
+
 /* Side Navigation Bar */
 
 .sidebar {
