@@ -260,6 +260,14 @@ color: #f1f1f1;
     padding-left:239px;
 }
 
+#coursesText1 {
+    position: absolute;
+    padding-top:65px;
+    padding-left: 560px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 #sideBarHeader {
     position: absolute;
     padding-top: 10px;
