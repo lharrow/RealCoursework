@@ -228,6 +228,78 @@ color: #f1f1f1;
     padding-left: 638px;
 }
 
+#coursesHeader1 {
+    position: absolute;
+    padding-top: 68px;
+    padding-left: 260px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#coursesImage1 img {
+    position: absolute;
+    height: 125px;
+    width: 308px;
+    padding-left:700px;
+
+}
+
+#coursesImage2 img {
+    position: absolute;
+    height: 125px;
+    width: 308px;
+    padding-left: 700px;
+}
+
+#sideBarHeader {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBarUndergraduate {
+    position: absolute;
+    padding-left:20px;
+    padding-top:35px;
+    font-size:17px;
+}
+
+#navBarPostgraduate {
+    position: absolute;
+    padding-left:20px;
+    padding-top:64px;
+    font-size:17px;
+}
+
+#navBarPR {
+    position: absolute;
+    padding-left:20px;
+    padding-top:90px;
+    font-size:17px;
+}
+
+#navBarPartTime {
+    position: absolute;
+    padding-left:20px;
+    padding-top:116px;
+    font-size:17px;
+}
+
+#navBarDistanceLearners {
+    position: absolute;
+    padding-left:20px;
+    padding-top:145px;
+    font-size:17px;
+}
+
+#navBarShortCourses {
+    position: absolute;
+    padding-left:20px;
+    padding-top:174px;
+    font-size:17px;
+}
 /* Side Navigation Bar */
 
 .sidebar {
