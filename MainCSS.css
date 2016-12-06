@@ -88,7 +88,7 @@ li a:hover:not(.active) {
 .body {
     padding: 1px 1px;
 }
-#firstText {
+#headerOne {
     position: absolute;
     padding-top: 17px;
     padding-left: 40px;
@@ -96,7 +96,7 @@ li a:hover:not(.active) {
     font-size: 15px;
 }
 
-#secondText {
+#headerTwo {
     position: absolute;
     padding-top: 3px;
     padding-left: 380px;
@@ -104,10 +104,65 @@ li a:hover:not(.active) {
     font-size: 15px;
 }
 
-#thirdText {
+#headerThree {
     position: absolute;
     padding-top: 3px;
     padding-left: 730px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#textOne {
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 1px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#textTwo {
+
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 320px;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+#textThree {
+
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 640px;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+#headerFour {
+
+    position: absolute;
+    padding-top: 265px;
+    padding-left: 70px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#textFour {
+
+    position: absolute;
+    padding-top: 295px;
+    padding-left: 1px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#headerFive {
+
+    position: absolute;
+    padding-top: 265px;
+    padding-left: 400px;
     font-weight: bold;
     font-size: 15px;
 }
