@@ -391,6 +391,125 @@ color: #f1f1f1;
     padding-top:180px;
     font-size:17px
 }
+
+#staffHeader1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 220px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#staffHeader2 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 700px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#staffImage1 img {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    padding-top: 60px;
+    padding-left:193px;
+}
+
+#staffImage2 img {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    padding-top: 250px;
+    padding-left:193px;
+}
+
+#staffImages3 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    padding-top: 440px;
+    padding-left:193px;
+}
+
+#staffHeader3 {
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 390px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#staffText1 {
+    position: absolute;
+    padding-top: 125px;
+    padding-left: 390px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#staffHeader4 {
+    position: absolute;
+    padding-top: 245px;
+    padding-left: 390px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#staffText2 {
+    position: absolute;
+    padding-top: 318px;
+    padding-left: 390px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#staffHeader5 {
+    position: absolute;
+    padding-top: 435px;
+    padding-left: 390px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#staffText3 {
+    position: absolute;
+    padding-top: 500px;
+    padding-left: 390px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#sideBarHeader2 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBarNews {
+    position: absolute;
+    padding-left:1px;
+    padding-top:35px;
+    font-size:17px;
+}
+
+#navBarEvents {
+    position: absolute;
+    padding-left:1px;
+    padding-top:64px;
+    font-size:17px;
+}
+
+#navBarPublications {
+    position: absolute;
+    padding-left:1px;
+    padding-top:90px;
+    font-size:17px;
+}
+
+#navBar
 /* Side Navigation Bar */
 
 .sidebar {
