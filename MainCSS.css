@@ -509,7 +509,44 @@ color: #f1f1f1;
     font-size:17px;
 }
 
-#navBar
+#navBarFindAnExpert {
+    position: absolute;
+    padding-left:1px;
+    padding-top:116px;
+    font-size:17px;
+}
+
+#newsHeader1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 280px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#newsHeader2 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 625px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#newsHeader3 {
+    position: absolute;
+    padding-top: 58px;
+    padding-left: 322px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#newsImage1 img {
+    position: absolute;
+    height: 140px;
+    width: 300px;
+    padding-top: 99px;
+    padding-left:240px;
+}
 /* Side Navigation Bar */
 
 .sidebar {
