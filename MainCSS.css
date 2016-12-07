@@ -547,6 +547,38 @@ color: #f1f1f1;
     padding-top: 99px;
     padding-left:240px;
 }
+
+#newsText1 {
+    position: absolute;
+    padding-top: 230px;
+    padding-left: 240px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#newsHeader4 {
+    position: absolute;
+    padding-top: 58px;
+    padding-left: 670px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#newsImage2 img {
+    position: absolute;
+    height: 140px;
+    width: 300px;
+    padding-top: 99px;
+    padding-left:600px;
+}
+
+#newsText2 {
+    position: absolute;
+    padding-top: 230px;
+    padding-left: 600px;
+    font-weight: normal;
+    font-size: 18px;
+}
 /* Side Navigation Bar */
 
 .sidebar {
