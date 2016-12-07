@@ -260,11 +260,35 @@ color: #f1f1f1;
     padding-left:239px;
 }
 
-#coursesText1 {
+#coursesHeader3 {
     position: absolute;
     padding-top:65px;
     padding-left: 560px;
     font-weight: bold;
+    font-size: 15px;
+}
+
+#coursesHeader4 {
+    position: absolute;
+    padding-top:220px;
+    padding-left: 560px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#coursestext1 {
+    position: absolute;
+    padding-top:110px;
+    padding-left: 560px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#coursestext2 {
+    position: absolute;
+    padding-top:265px;
+    padding-left: 560px;
+    font-weight: normal;
     font-size: 15px;
 }
 
@@ -316,6 +340,56 @@ color: #f1f1f1;
     padding-left:1px;
     padding-top:174px;
     font-size:17px;
+}
+
+#sideBarHeader1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBarHeadOfSchool {
+    position: absolute;
+    padding-left:1px;
+    padding-top:35px;
+    font-size:17px
+}
+
+#navBarProfessors {
+    position: absolute;
+    padding-left:1px;
+    padding-top:64px;
+    font-size:17px
+}
+
+#navBarSenorLecturers {
+    position: absolute;
+    padding-left:1px;
+    padding-top:93px;
+    font-size:17px
+}
+
+#navBarReader {
+    position: absolute;
+    padding-left:1px;
+    padding-top:122px;
+    font-size:17px
+}
+
+#navBarTeachingFellows {
+    position: absolute;
+    padding-left:1px;
+    padding-top:151px;
+    font-size:17px
+}
+
+#navBarLecturers {
+    position: absolute;
+    padding-left:1px;
+    padding-top:180px;
+    font-size:17px
 }
 /* Side Navigation Bar */
 
