@@ -579,6 +579,114 @@ color: #f1f1f1;
     font-weight: normal;
     font-size: 18px;
 }
+
+#sideBarHeader3 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBarHowToFindUs {
+    position: absolute;
+    padding-left:1px;
+    padding-top:35px;
+    font-size:17px;
+}
+
+#navBarTransportInformation {
+    position: absolute;
+    padding-left:1px;
+    padding-top:64px;
+    font-size:17px;
+}
+
+#navBarProspectusesAndGuides {
+    position: absolute;
+    padding-left:1px;
+    padding-top:90px;
+    font-size:17px;
+}
+
+#navBarFindAnExpert {
+    position: absolute;
+    padding-left:1px;
+    padding-top:116px;
+    font-size:17px;
+}
+
+#navBarEmergencyContactDetails {
+    position: absolute;
+    padding-left:1px;
+    padding-top:145px;
+    font-size:17px;
+}
+
+#contactHeader1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 360px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contactHeader2 {
+    position: absolute;
+    padding-top: 42px;
+    padding-left: 310px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contactText1 {
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 310px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#contactHeader3 {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contactTwiterLink {
+    position: absolute;
+    padding-top: 225px;
+    padding-left: 40px;
+}
+
+#contactTwiterLink img {
+    height: 130px;
+    width: 130px;
+}
+
+#contactFacebookLink {
+    position: absolute;
+    padding-top: 225px;
+    padding-left: 220px;
+}
+
+#contactFacebookLink img {
+    height: 130px;
+    width: 130px;
+}
+
+#contactYoutubeLink {
+    position: absolute;
+    padding-top: 225px;
+    padding-left: 400px;
+}
+
+#contactYoutubeLink img {
+    height: 130px;
+    width: 130px;
+}
 /* Side Navigation Bar */
 
 .sidebar {
