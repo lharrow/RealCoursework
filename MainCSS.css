@@ -91,141 +91,164 @@ color: #f1f1f1;
     padding: 1px 1px;
 }
 
+/* Containers */
+
+.container {
+    display: inline-block;
+    position: relative;
+    border:1px solid rgba (0,0,0,0.3);
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin:10px;
+    height:auto;
+}
+
+.container.img {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 50px;
+    padding-top:0px;
+    padding-left: 1px;
+}
+
+.container.text {
+    display: inline-block;
+    position: relative;
+}
 /* Styling for the first header */
 #headerOne {
-    position: absolute;
-    padding-top: 20px;
-    padding-left: 40px;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the second header */
 #headerTwo {
-    position: absolute;
+    position: relative;
     padding-top: 3px;
-    padding-left: 380px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the third header */
 #headerThree {
-    position: absolute;
+    position: relative;
     padding-top: 3px;
-    padding-left: 730px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the first piece of text */
 #textOne {
-    position: absolute;
-    padding-top: 180px;
-    padding-left: 1px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
 }
 
 /* Styling for the second piece of text */
 #textTwo {
-    position: absolute;
-    padding-top: 180px;
-    padding-left: 320px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
-
 }
 
 /* Styling for the third piece of text */
 #textThree {
-    position: absolute;
-    padding-top: 180px;
-    padding-left: 640px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
-
 }
 
 /* Styling for the fourth header */
 #headerFour {
-    position: absolute;
-    padding-top: 265px;
-    padding-left: 70px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the fourth piece of text */
 #textFour {
-    position: absolute;
-    padding-top: 295px;
-    padding-left: 1px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
 }
 
 /* Styling for the fifth header */
 #headerFive {
-    position: absolute;
-    padding-top: 265px;
-    padding-left: 400px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the fifth piece of text */
 #textFive {
-    position: absolute;
-    padding-top: 295px;
-    padding-left: 320px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
 }
 
 /* Styling for the sixth header */
 #headerSix {
-    position: absolute;
-    padding-top: 265px;
-    padding-left: 700px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
 }
 
 /* Styling for the sixth piece of text */
 #textSix {
-    position: absolute;
-    padding-top: 295px;
-    padding-left: 640px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
 }
 
 /* Styling for the first image */
 #imageOne img {
-    position: absolute;
+    position: relative;
     height: 125px;
     width: 308px;
-    padding-top: 43px;
+    padding-top: 0px;
     padding-left: 1px;
 }
 
 /* Styling for the second image */
 #imageTwo img {
-    position: absolute;
+    position: relative;
     height: 125px;
     width: 308px;
-    padding-top: 43px;
-    padding-left: 320px;
+    padding-top: 0px;
+    padding-left: 1px;
 }
 
 /* Styling for the third image */
 #imageThree img {
-    position: absolute;
+    position: relative;
     height: 125px;
     width: 308px;
-    padding-top: 43px;
-    padding-left: 638px;
+    padding-top: 0px;
+    padding-left: 1px;
 }
 
 #coursesHeader1 {
