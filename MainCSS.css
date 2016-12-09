@@ -21,7 +21,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 5px;
     width: 100%;
 }
@@ -33,7 +33,6 @@ ul {
     alt: RGU Logo;
     height: 40px;
     width: 200px
-
 }
 
 
@@ -116,6 +115,33 @@ color: #f1f1f1;
     display: inline-block;
     position: relative;
 }
+
+.container-c {
+    display: block;
+    position: relative;
+    left: 250px;
+    bottom: 300px;
+    border:1px solid rgba (0,0,0,0.3);
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin:10px;
+    width: 900px;
+    height:auto;
+}
+
+.container-sidebar {
+    display: inline-block;
+    position: relative;
+    border: 2px solid;
+    border-right-color: rgba (0,0,0,0.3);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    padding: 0 10px 0 0;
+    margin: 10px;
+    height: auto;
+}
+
 /* Styling for the first header */
 #headerOne {
     position: relative;
@@ -268,55 +294,59 @@ color: #f1f1f1;
 }
 
 #coursesImage1 img {
-    position: absolute;
-    height: 140px;
-    width: 308px;
-    padding-top: 70px;
-    padding-left:239px;
+    position: relative;
+    height: 170px;
+    width: 170px;
+    padding-top: 0px;
+    padding-left:0px;
 }
 
 #coursesImage2 img {
-    position: absolute;
-    height: 140px;
-    width: 308px;
-    padding-top: 225px;
-    padding-left:239px;
+    position: relative;
+    height: 170px;
+    width: 170px;
+    padding-top: 0px;
+    padding-left:0px;
 }
 
 #coursesHeader3 {
-    position: absolute;
-    padding-top:65px;
-    padding-left: 560px;
+    position: relative;
+    bottom: 170px;
+    padding-top:0px;
+    padding-left: 190px;
     font-weight: bold;
     font-size: 15px;
 }
 
 #coursesHeader4 {
-    position: absolute;
-    padding-top:220px;
-    padding-left: 560px;
+    position: relative;
+    bottom: 170px;
+    padding-top:0px;
+    padding-left: 190px;
     font-weight: bold;
     font-size: 15px;
 }
 
 #coursestext1 {
-    position: absolute;
-    padding-top:110px;
-    padding-left: 560px;
+    position: relative;
+    bottom: 150px;
+    padding-top:0px;
+    padding-left: 190px;
     font-weight: normal;
     font-size: 15px;
 }
 
 #coursestext2 {
-    position: absolute;
-    padding-top:265px;
-    padding-left: 560px;
+    position: relative;
+    bottom: 150px;
+    padding-top:0px;
+    padding-left: 190px;
     font-weight: normal;
     font-size: 15px;
 }
 
 #sideBarHeader {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 1px;
     font-weight: bold;
@@ -324,49 +354,49 @@ color: #f1f1f1;
 }
 
 #navBarUndergraduate {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:35px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarPostgraduate {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:64px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarPR {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:90px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarPartTime {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:116px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarDistanceLearners {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:145px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarShortCourses {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:174px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #sideBarHeader1 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 40px;
     font-weight: bold;
@@ -374,49 +404,49 @@ color: #f1f1f1;
 }
 
 #navBarHeadOfSchool {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:35px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #navBarProfessors {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:64px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #navBarSenorLecturers {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:93px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #navBarReader {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:122px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #navBarTeachingFellows {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:151px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #navBarLecturers {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:180px;
-    font-size:17px
+    padding-top:0px;
+    font-size:17px;
 }
 
 #staffHeader1 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 220px;
     font-weight: bold;
@@ -424,7 +454,7 @@ color: #f1f1f1;
 }
 
 #staffHeader2 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 700px;
     font-weight: bold;
@@ -432,73 +462,79 @@ color: #f1f1f1;
 }
 
 #staffImage1 img {
-    position: absolute;
+    position: relative;
     height: 170px;
     width: 170px;
-    padding-top: 60px;
-    padding-left:193px;
+    padding-top: 0px;
+    padding-left:0px;
 }
 
 #staffImage2 img {
-    position: absolute;
+    position: relative;
     height: 170px;
     width: 170px;
-    padding-top: 250px;
-    padding-left:193px;
+    padding-top: 0px;
+    padding-left:0px;
 }
 
 #staffImages3 img{
-    position: absolute;
+    position: relative;
     height: 170px;
     width: 170px;
-    padding-top: 440px;
-    padding-left:193px;
+    padding-top: 0px;
+    padding-left:0px;
 }
 
 #staffHeader3 {
-    position: absolute;
-    padding-top: 55px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 175px;
     font-weight: bold;
     font-size: 18px;
 }
 
 #staffText1 {
-    position: absolute;
-    padding-top: 125px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 170px;
     font-weight: normal;
     font-size: 18px;
 }
 
 #staffHeader4 {
-    position: absolute;
-    padding-top: 245px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 175px;
     font-weight: bold;
     font-size: 18px;
 }
 
 #staffText2 {
-    position: absolute;
-    padding-top: 318px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 170px;
     font-weight: normal;
     font-size: 18px;
 }
 
 #staffHeader5 {
-    position: absolute;
-    padding-top: 435px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 175px;
     font-weight: bold;
     font-size: 18px;
 }
 
 #staffText3 {
-    position: absolute;
-    padding-top: 500px;
-    padding-left: 390px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 200px;
+    bottom: 170px;
     font-weight: normal;
     font-size: 18px;
 }
