@@ -142,6 +142,18 @@ color: #f1f1f1;
     height: auto;
 }
 
+.container-news {
+    display: inline-block;
+    position: relative;
+    left: 225px;
+    bottom: 200px;
+    border:1px solid rgba (0,0,0,0.3);
+    background-color: #f1f1f1;
+    padding:20px;
+    margin: 10px;
+    height:auto;
+
+}
 /* Styling for the first header */
 #headerOne {
     position: relative;
@@ -210,6 +222,7 @@ color: #f1f1f1;
     position: relative;
     padding-top: 0px;
     padding-left: 0px;
+    padding-right: 5px;
     font-weight: normal;
     font-size: 15px;
 }
@@ -227,6 +240,7 @@ color: #f1f1f1;
 #textFive {
     position: relative;
     padding-top: 0px;
+    padding-right: 8px;
     padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
@@ -245,6 +259,7 @@ color: #f1f1f1;
 #textSix {
     position: relative;
     padding-top: 0px;
+    padding-right: 6px;
     padding-left: 0px;
     font-weight: normal;
     font-size: 15px;
@@ -540,7 +555,7 @@ color: #f1f1f1;
 }
 
 #sideBarHeader2 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 1px;
     font-weight: bold;
@@ -548,35 +563,35 @@ color: #f1f1f1;
 }
 
 #navBarNews {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:35px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarEvents {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:64px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarPublications {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:90px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #navBarFindAnExpert {
-    position: absolute;
+    position: relative;
     padding-left:1px;
-    padding-top:116px;
+    padding-top:0px;
     font-size:17px;
 }
 
 #newsHeader1 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 280px;
     font-weight: bold;
@@ -584,7 +599,7 @@ color: #f1f1f1;
 }
 
 #newsHeader2 {
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-left: 625px;
     font-weight: bold;
@@ -592,49 +607,49 @@ color: #f1f1f1;
 }
 
 #newsHeader3 {
-    position: absolute;
-    padding-top: 58px;
-    padding-left: 322px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 18px;
 }
 
 #newsImage1 img {
-    position: absolute;
+    position: relative;
     height: 140px;
     width: 300px;
-    padding-top: 99px;
-    padding-left:240px;
+    padding-top: 0px;
+    padding-left:2px;
 }
 
 #newsText1 {
-    position: absolute;
-    padding-top: 230px;
-    padding-left: 240px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 18px;
 }
 
 #newsHeader4 {
-    position: absolute;
-    padding-top: 58px;
-    padding-left: 670px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 18px;
 }
 
 #newsImage2 img {
-    position: absolute;
+    position: relative;
     height: 140px;
     width: 300px;
-    padding-top: 99px;
-    padding-left:600px;
+    padding-top: 0px;
+    padding-left:2px;
 }
 
 #newsText2 {
-    position: absolute;
-    padding-top: 230px;
-    padding-left: 600px;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
     font-weight: normal;
     font-size: 18px;
 }
