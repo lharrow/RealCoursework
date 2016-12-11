@@ -2,102 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--- Title for the page, ie, what is shown in the tab --->
+    <!--- Title for the page, ie, what is shown in the tab --->
     <title>RGU Homepage</title>
-<!-- Connection made to the stylesheet --->
+    <!--- Connection made to the stylesheet --->
     <link rel="stylesheet" type="text/css" href="MainCSS.css">
-<!--- Allowing accessing to the google font 'Roboto' --->
+    <!--- Allowing accessing to the google font 'Roboto' --->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<!-- Opening the body tag --->
+<!--- Opening the body tag --->
 <body>
 
-<!-- Opening the header tag --->
+<!--- Opening the header tag --->
 <header>
 
-<!-- Closing the header tag because no information is required in the section --->
+<!--- Closing the header tag because no information is required in the section --->
 </header>
 
-<!-- Opening the main tag, which is where all of the code is placed --->
+<!--- Opening the main tag, which is where all of the code is placed --->
 <main>
 
-
+    <!--- Creating a class called 'nav', which is used throughout the code for the navigational bar at the top of the page --->
+    <!--- The nav bar is implemented using the same code for all main pages --->
     <div class="nav">
-        <!-- Navigation bar which is implemented throughout all pages --->
 
+        <!--- Creating an unordered list --->
         <ul>
+            <!--- RGU logo image --->
             <li><img src="./Images/RGULogo.png"></li>
 
-             <!--- White spacing and link to 'Home' page --->
+            <!--- Link to the 'homepage' page, as a way back to the main page from any other page --->
             <li><a href="./Homepage.html">Homepage</a></li>
 
-            <!--- White spacing and link to 'Course' page --->
+            <!--- Link to the 'Courses' page --->
             <li> <a href="./Courses.html">Courses</a></li>
 
-             <!--- White spacing and link to 'Staff' page --->
+             <!--- Link to 'Staff' page --->
              <li><a href="./Staff.html">Staff</a></li>
 
-            <!--- White spacing and link to 'News' page --->
+            <!--- Link to 'News' page --->
              <li><a href="./News.html">News</a></li>
 
-             <!--- White spacing and link to 'Contact' page --->
+             <!--- Link to 'Contact' page --->
              <li><a href="./Contact.html">Contact</a></li>
 
-            <!--- White spacing and search bar --->
-             <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <!--- Search bar (not function) --->
             <li><input type="text" name="search" placeholder="Search..."></li>
+        <!--- Closing the unordered list --->
         </ul>
+    <!--- Closing the 'nav' class --->
     </div>
 
+    <!--- Creating a class called 'header', which is used throughout the code to display an image and text on all pages --->
     <div class="header">
-        <!--- School heading and image --->
-        <!--- Placeholder image is only used until we have actual images decided --->
+
+        <!--- Creating a class called 'header', which is used to display an image that covers the whole length of the page --->
         <div class="banner">
+
+            <!-- Banner image --->
             <img src="./Images/rgubanner.jpg">
+            <!-- Closing the 'banner' class --->
         </div>
+        <!--- Header text within the image --->
         <h1>School of Computing Science and Digital Media</h1>
+        <!--- Closing the 'header' class --->
     </div>
 
-    <!--- Main section of the web page --->
-
+    <!--- Creating a class called 'body', which is used to contain code for all the main information on the page --->
     <div class="body">
-    <!-- Still to be surrounded in a box --->
+
+<!--- THE CODE BELOW IS COPIED THROUGHOUT ALL OF THE WEBISTE, AND IS REQUIRED TO CONTAIN ALL OF THE INFORMATION WITHIN BOXES --->
+
+        <!--- Creating a class called 'container', which is used to contain the information is a box --->
         <div class = "container">
 
-            <!--- Left Text --->
+            <!--- Left header contained in a box --->
             <h2 id ="headerOne">Why Study Computing here?</h2>
 
+            <!-- Creating a class called 'container.img', which is used to contain the image in the box, and allow it to be manipulated --->
             <div class = "container.img">
-                <!--- Left Image --->
+
+                <!--- Left Image and text --->
                 <h2 id = "imageOne"><img src="./Images/question mark.jpg" alt = "Why study here"></h2>
+
+            <!-- Closing the 'container.img' class --->
             </div>
 
+            <!--- Class created called 'container.text', which is used to contain the lorem ipsum text within the box --->
             <div class = "container.text">
                 <!--- Left Text Under Image --->
                 <h2 id ="textOne">Lorem ipsum dolor sit amet, consectetur<BR/> Fusce id eiet at Vivamus sit amet consectetur<BR/> felis ultricies blandit. Sed sed mauris metus.</h2>
 
+            <!--- Closing the 'container.text' class --->
             </div>
+
+        <!--- Closing the 'container' class --->
         </div>
 
+        <!--- Creating a class called 'container', which is used to contain the information is a box --->
         <div class = "container">
-            <!--- Middle Text --->
+
+            <!--- Middle Header --->
             <h2 id ="headerTwo">Computing Degree Courses</h2>
 
+            <!-- Creating a class called 'container.img', which is used to contain the image in the box, and allow it to be manipulated --->
             <div class  = "container.img">
 
-                <!-- Middle image --->
+                <!-- Middle image and text --->
                 <h2 id = "imageTwo"><img src="http://www.newyorker.com/wp-content/uploads/2015/12/Veix-Goodbye-New-York-Color-1200.jpg"></h2>
 
+            <!-- Closing the 'container.img' class --->
             </div>
 
+            <!--- Class created called 'container.text', which is used to contain the lorem ipsum text within the box --->
             <div class = "container.text">
 
                 <!--- Middle Text Under Image --->
                 <h2 id ="textTwo">Lorem ipsum dolor sit amet, consectetur<BR/> Fusce id eiet at Vivamus sit amet consectetur<BR/> felis ultricies blandit. Sed sed mauris metus.</h2>
 
+            <!-- Closing the 'container.img' class --->
             </div>
 
+        <!--- Closing the 'container' class --->
         </div>
 
         <div class = "container">
