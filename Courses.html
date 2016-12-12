@@ -2,93 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
 <!--- Title for the page, ie, what is shown in the tab --->
     <title>Courses</title>
+
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+
 <!-- Connection made to the stylesheet --->
     <link rel="stylesheet" type="text/css" href="MainCSS.css">
+
 <!--- Allowing accessing to the google font 'Roboto' --->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 
+<!--- Opening the body tag --->
 <body>
+
+<!--- Opening the header tag --->
 <header>
 
+<!--- Closing the header tag because no information is required in the section --->
 </header>
 
+<!--- Opening the main tag, which is where all of the code is placed --->
 <main>
 
+    <!--- Creating a class called 'nav', which is used throughout the code for the navigational bar at the top of the page --->
+    <!--- The nav bar is implemented using the same code for all main pages --->
     <div class="nav">
+
+        <!--- Creating an unordered list --->
         <ul>
-            <!--- Styling of navigation bar needs to be included --->
-            <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
-            Image is sized but will be resized in CSS -->
+
+            <!--- RGU logo image --->
             <li><img src="./Images/RGULogo.png"></li>
 
-            <!--- White spacing and link to 'Home' page --->
+            <!--- Link to the 'homepage' page, as a way back to the main page from any other page --->
             <li><a href="./Homepage.html">Homepage</a></li>
 
-            <!--- White spacing and link to 'Course' page --->
+            <!--- Link to the 'Courses' page --->
             <li> <a href="./Courses.html">Courses</a></li>
 
-            <!--- White spacing and link to 'Staff' page --->
+            <!--- Link to 'Staff' page --->
             <li><a href="./Staff.html">Staff</a></li>
 
-            <!--- White spacing and link to 'News' page --->
+            <!--- Link to 'News' page --->
             <li><a href="./News.html">News</a></li>
 
-            <!--- White spacing and link to 'Contact' page --->
+            <!--- Link to 'Contact' page --->
             <li><a href="./Contact.html">Contact</a></li>
 
-            <!--- White spacing and search bar --->
-            <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <!--- Search bar (not function) --->
             <li><input type="text" name="search" placeholder="Search..."></li>
+
+        <!--- Closing the unordered list --->
         </ul>
+
+    <!--- Closing the 'nav' class --->
     </div>
 
-
+    <!--- Creating a class called 'header', which is used throughout the code to display an image and text on all pages --->
     <div class="header">
-        <!--- School heading and image --->
-        <!--- Placeholder image is only used until we have actual images decided --->
+
+        <!--- Creating a class called 'header', which is used to display an image that covers the whole length of the page --->
         <div class="banner">
+
+            <!-- Banner image --->
             <img src="./Images/rgubanner.jpg">
+
+        <!-- Closing the 'banner' class --->
         </div>
+
+        <!--- Header text within the image --->
         <h1>School of Computing Science and Digital Media</h1>
+
+    <!--- Closing the 'header' class --->
     </div>
 
-
+    <!--- Creating a class called 'sidebar', which is used throughout the code for the navigational bar at the side of the page --->
+    <!--- The side bar is implemented using the same code for all main pages --->
     <div class="sidebar">
-        <!-- Unordered list used to create bulletpoints for links --->
 
+        <!--- Creating a class called 'container-sidebar', which is used to contain the sidebar in a container --->
         <div class = "container-sidebar">
 
-        <ol>
+            <!--- Creating an ordered list --->
+            <ol>
 
-        <!--- Sidebar for navigation, 'Undergraduate' --->
+        <!--- Sidebar header 'study options' --->
         <h2 id = "sideBarHeader">Study Options</h2>
 
+        <!--- Link to undergraduate page, with link embedded in text --->
         <p id = "navBarUndergraduate"><a href="./Courses/Undergraduate.html">Undergraduate</a></p>
 
-        <!-- 'Postgraduate' --->
+        <!--- Link to postgraduate page, with link embedded in text --->
         <p id = "navBarPostgraduate"><a href="./Courses/Postgraduate.html">Postgraduate</a></p>
 
-        <!-- 'Postgraduate Research' --->
+        <!--- Link to postgraduate research page, with link embedded in text --->
         <p id = "navBarPR"><a href="./Courses/PostgraduateResearch.html">Postgraduate Research</a></p>
 
-        <!-- 'Part Time Learning' --->
+        <!--- Link to part time learning page, with link embedded in text --->
         <p id = "navBarPartTime"><a href="./Courses/PartTimeLearning.html">Part Time Learning</a></p>
 
-        <!-- 'Distance Learners' --->
+        <!--- Link to distance learners page, with link embedded in text --->
         <p id = "navBarDistanceLearners"><a href="./Courses/DistanceLearners.html">Distance Learners</a></p>
 
-        <!-- 'Short Courses' --->
+        <!--- Link to short courses page, with link embedded in text --->
         <p id = "navBarShortCourses"><a href="./Courses/ShortCourses.html">Short Courses</a></p>
 
-
+        <!--- Closing the ordered list --->
         </ol>
 
+     <!--- Closing the container-sidebar class --->
     </div>
+
+<!--- Closing the sidebar class --->
 </div>
+
+    <!--- THIS SECTION IS COMMENTED OUT AS WE COULD NOT GET THE
 
     <!-- <div class="Headers">
         <!-- Header for 'Computing Study Options'. Unsure whether this should be a link? --->
