@@ -29,78 +29,101 @@
 <!--- Opening the main tag, which is where all of the code is placed --->
 <main>
 
-
+    <!--- Creating a class called 'nav', which is used throughout the code for the navigational bar at the top of the page --->
+    <!--- The nav bar is implemented using the same code for all main pages --->
     <div class="nav">
+
+        <!--- Creating an unordered list --->
         <ul>
-            <!--- Styling of navigation bar needs to be included --->
-            <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
-            Image is sized but will be resized in CSS -->
+
+            <!--- RGU logo image --->
             <li><img src="./Images/RGULogo.png"></li>
 
-            <!--- White spacing and link to 'Home' page --->
+            <!--- Link to the 'homepage' page, as a way back to the main page from any other page --->
             <li><a href="./Homepage.html">Homepage</a></li>
 
-            <!--- White spacing and link to 'Course' page --->
+            <!--- Link to the 'Courses' page --->
             <li> <a href="./Courses.html">Courses</a></li>
 
-            <!--- White spacing and link to 'Staff' page --->
+            <!--- Link to 'Staff' page --->
             <li><a href="./Staff.html">Staff</a></li>
 
             <!--- White spacing and link to 'News' page --->
             <li><a href="./News.html">News</a></li>
 
-            <!--- White spacing and link to 'Contact' page --->
+            <!--- Link to 'Contact' page --->
             <li><a href="./Contact.html">Contact</a></li>
 
-            <!--- White spacing and search bar --->
-            <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <!--- Search bar (not function) --->
             <li><input type="text" name="search" placeholder="Search..."></li>
+
+        <!--- Closing the unordered list --->
         </ul>
+
+    <!--- Closing the 'nav' class --->
     </div>
 
+    <!--- Creating a class called 'header', which is used throughout the code to display an image and text on all pages --->
     <div class="header">
-        <!--- School heading and image --->
-        <!--- Placeholder image is only used until we have actual images decided --->
+
+        <!--- Creating a class called 'header', which is used to display an image that covers the whole length of the page --->
         <div class="banner">
+
+            <!-- Banner image --->
             <img src="./Images/rgubanner.jpg">
+
+        <!-- Closing the 'banner' class --->
         </div>
+
+        <!--- Header text within the image --->
         <h1>School of Computing Science and Digital Media</h1>
+
+    <!--- Closing the 'header' class --->
     </div>
 
+    <!--- Creating a class called 'sidebar', which is used throughout the code for the navigational bar at the side of the page --->
+    <!--- The side bar is implemented using the same code for all main pages --->
     <div class="Sidebar">
+
+        <!--- Creating a class called 'container-sidebar', which is used to contain the sidebar in a container --->
         <div class = "container-sidebar">
-        <!--- still to add blue bars surrounding text --->
-        <!--- Sidebar for navigation, 'News and Events' --->
+
+        <!--- Sidebar for navigation, 'Staff' --->
         <h2 id = "sideBarHeader1">Staff</h2>
 
-        <!-- Unordered list used to create bulletpoints for links --->
+            <!--- Creating an ordered list --->
+            <ol>
 
-        <ol>
-
-            <!-- Head of School --->
+        <!--- Link to head of school page, with link embedded in text --->
         <p id = "navBarHeadOfSchool"><a href="./Staff/HeadOfSchool.html">Head of School</a></p>
 
-        <!-- 'Professors' --->
+        <!--- Link to professors page, with link embedded in text --->
         <p id = "navBarProfessors"><a href="./Staff/Professors.html">Professors</a></p>
 
-        <!-- 'Senor Lecturers' --->
+        <!--- Link to senor lecturers page, with link embedded in text --->
         <p id = "navBarSenorLecturers"><a href="./Staff/SenorLecturers.html">Senor Lecturers</a></p>
 
-        <!-- 'Reader' --->
+        <!--- Link to reader page, with link embedded in text --->
         <p id = "navBarReader"><a href="./Staff/Reader.html">Reader</a></p>
 
-        <!-- 'Teaching Fellows' --->
+        <!--- Link to part teching fellows page, with link embedded in text --->
         <p id = "navBarTeachingFellows"><a href="./Staff/TeachingFellows.html">Teaching Fellows</a></p>
 
-        <!-- 'Lecturers' --->
+        <!--- Link to lecturers page, with link embedded in text --->
         <p id = "navBarLecturers"><a href="./Staff/Lecturers.html">Lecturers</a></p>
 
+        <!--- Closing the ordered list --->
         </ol>
 
+    <!--- Closing the container-sidebar class --->
     </div>
+
+<!--- Closing the sidebar class --->
 </div>
 
-    <div class="Headers">
+    <!--- THIS SECTION IS COMMENTED OUT AS WE COULD NOT GET THE HEADERS WORKING WITH CONTAINERS --->
+
+    <!---<div class="Headers">
         <!-- The positioning of these headings are identical to 'Courses' page headings.
         Because of this the positioning isn't correct. Can be edited in CSS --->
 
@@ -110,42 +133,67 @@
         <!-- Header for 'Undergraduate'. Usure whether this should be a link? --->
         <!--<h2 id = "staffHeader2">Lecturers</h2>
         -->
-    </div>
+    <!---</div>
+    --->
 
+    <!--- Creating a class called 'MainBody', which is used to contain code for all the main information on the page --->
     <div class="MainBody">
+
+        <!--- THE CODE BELOW IS COPIED THROUGHOUT ALL OF THE WEBISTE, AND IS REQUIRED TO CONTAIN ALL OF THE INFORMATION WITHIN BOXES --->
+
+        <!--- Creating a class called 'container-c', which is used to contain the information is a box --->
         <div class = "container-c">
-            <!-- First image under header --->
+
+            <!--- First image --->
             <h2 id = "staffImage1"><img src="./Images/MichaelCrabb.jpg" alt = "MichaelCrabb"></h2>
 
             <!-- First header alongside first image --->
-            <!--- Add blue border to the name --->
             <h2 id = "staffHeader3">Michael Crabb</h2>
 
             <!-- First section of text underneath first header --->
             <h2 id = "staffText1">Lorem ipsum dolor sit amet, consectetur. Fusce id eiet at Vivamus sit amet consectetur</h2>
+
+        <!--- Closing the container-c class --->
         </div>
 
+        <!--- Creating a class called 'container-c', which is used to contain the information is a box --->
         <div class = "container-c">
-            <!-- Second image under top image --->
+
+            <!-- Second image --->
             <h2 id = "staffImage2"><img src="./Images/MichaelHeron.jpg" alt = "MichaelHeron"></h2>
 
             <!-- Second header alongside second image --->
-            <!--- Add blue border to the name --->
             <h2 id = "staffHeader4">Michael Heron</h2>
 
             <!-- Second section of text underneath second header --->
             <h2 id = "staffText2">Lorem ipsum dolor sit amet, consectetur. Fusce id eiet at Vivamus sit amet consectetur</h2>
+
+        <!--- Closing the container-c class --->
         </div>
 
+        <!--- Creating a class called 'container-c', which is used to contain the information is a box --->
         <div class = "container-c">
-            <!-- Third image under top image --->
+
+            <!-- Third image --->
             <h2 id = "staffImages3"><img src="./Images/MarkZarb.jpg" alt = "MarkZarb"></h2>
 
             <!-- Third header alongside third image --->
-            <!--- Add blue border to the name --->
             <h2 id = "staffHeader5">Mark Zarb</h2>
 
             <!-- Third section of text underneath third header --->
             <h2 id = "staffText3">Lorem ipsum dolor sit amet, consectetur. Fusce id eiet at Vivamus sit amet consectetur</h2>
+
+        <!--- Closing the container-c class --->
         </div>
+
+    <!--- Closing the MainBody class --->
     </div>
+
+<!--- Closing the main tag --->
+</main>
+
+<!--- Closing the body tag --->
+</body>
+
+<!--- Closing the html tag --->
+</html>
