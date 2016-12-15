@@ -72,9 +72,13 @@ li a:hover:not(.active) {
 
 /* Header */
 
+/* Header styling (header is not really presesnt) */
+
 .header {
 color: #f1f1f1;
 }
+
+/* Banner styling styling */
 
 .banner {
     height: 300px;
@@ -84,6 +88,8 @@ color: #f1f1f1;
 }
 
 /* Header Image */
+
+/* Banner image styling */
 
 .banner img {
     position: static;
@@ -95,13 +101,11 @@ color: #f1f1f1;
 
 /* Body */
 
-/* Do we want this to be expandable/contractible like the banner? */
-
 .body {
     padding: 1px 1px;
 }
 
-/* Containers */
+/* Containers styling */
 
 .container {
     display: inline-block;
@@ -113,6 +117,8 @@ color: #f1f1f1;
     height:auto;
 }
 
+/* Container image styling */
+
 .container.img {
     display: inline-block;
     position: relative;
@@ -121,10 +127,14 @@ color: #f1f1f1;
     padding-left: 1px;
 }
 
+/* Container text styling */
+
 .container.text {
     display: inline-block;
     position: relative;
 }
+
+/* Container-c styling */
 
 .container-c {
     display: block;
@@ -138,6 +148,8 @@ color: #f1f1f1;
     width: 900px;
     height:auto;
 }
+
+/* Container styling
 
 .container-sidebar {
     display: inline-block;
@@ -164,7 +176,9 @@ color: #f1f1f1;
     height:auto;
 
 }
+
 /* Styling for the first header */
+
 #headerOne {
     position: relative;
     padding-top: 3px;
@@ -174,6 +188,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the second header */
+
 #headerTwo {
     position: relative;
     padding-top: 3px;
@@ -183,6 +198,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the third header */
+
 #headerThree {
     position: relative;
     padding-top: 3px;
@@ -192,6 +208,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the first piece of text */
+
 #textOne {
     position: relative;
     padding-top: 0px;
@@ -201,6 +218,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the second piece of text */
+
 #textTwo {
     position: relative;
     padding-top: 0px;
@@ -210,6 +228,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the third piece of text */
+
 #textThree {
     position: relative;
     padding-top: 0px;
@@ -219,6 +238,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the fourth header */
+
 #headerFour {
     position: relative;
     padding-top: 0px;
@@ -228,6 +248,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the fourth piece of text */
+
 #textFour {
     position: relative;
     padding-top: 0px;
@@ -238,6 +259,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the fifth header */
+
 #headerFive {
     position: relative;
     padding-top: 0px;
@@ -247,6 +269,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the fifth piece of text */
+
 #textFive {
     position: relative;
     padding-top: 0px;
@@ -257,6 +280,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the sixth header */
+
 #headerSix {
     position: relative;
     padding-top: 0px;
@@ -266,6 +290,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the sixth piece of text */
+
 #textSix {
     position: relative;
     padding-top: 0px;
@@ -276,6 +301,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the first image */
+
 #imageOne img {
     position: relative;
     height: 125px;
@@ -285,6 +311,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the second image */
+
 #imageTwo img {
     position: relative;
     height: 125px;
@@ -294,6 +321,7 @@ color: #f1f1f1;
 }
 
 /* Styling for the third image */
+
 #imageThree img {
     position: relative;
     height: 125px;
@@ -301,6 +329,8 @@ color: #f1f1f1;
     padding-top: 0px;
     padding-left: 1px;
 }
+
+/* Styling for the first course header */
 
 #coursesHeader1 {
     position: absolute;
@@ -310,6 +340,8 @@ color: #f1f1f1;
     font-size: 15px;
 }
 
+/* Styling for the second course header */
+
 #coursesHeader2 {
     position: absolute;
     padding-top: 20px;
@@ -317,6 +349,8 @@ color: #f1f1f1;
     font-weight: bold;
     font-size: 15px;
 }
+
+/* Styling for the first course image */
 
 #coursesImage1 img {
     position: relative;
@@ -326,6 +360,8 @@ color: #f1f1f1;
     padding-left:0px;
 }
 
+/* Styling for the second course image */
+
 #coursesImage2 img {
     position: relative;
     height: 170px;
@@ -333,6 +369,8 @@ color: #f1f1f1;
     padding-top: 0px;
     padding-left:0px;
 }
+
+/* Styling for the third course header */
 
 #coursesHeader3 {
     position: relative;
@@ -343,6 +381,8 @@ color: #f1f1f1;
     font-size: 15px;
 }
 
+/* Styling for the fourth course header */
+
 #coursesHeader4 {
     position: relative;
     bottom: 170px;
@@ -351,6 +391,8 @@ color: #f1f1f1;
     font-weight: bold;
     font-size: 15px;
 }
+
+/* Styling for the first course text */
 
 #coursestext1 {
     position: relative;
@@ -361,6 +403,8 @@ color: #f1f1f1;
     font-size: 15px;
 }
 
+/* Styling for the second course text */
+
 #coursestext2 {
     position: relative;
     bottom: 150px;
@@ -370,6 +414,8 @@ color: #f1f1f1;
     font-size: 15px;
 }
 
+/* Styling for the side bar header */
+
 #sideBarHeader {
     position: relative;
     padding-top: 10px;
@@ -378,12 +424,16 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the nav bar 'undergraduate' */
+
 #navBarUndergraduate {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'postgraduate' */
 
 #navBarPostgraduate {
     position: relative;
@@ -392,12 +442,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'PR' */
+
 #navBarPR {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'part time' */
 
 #navBarPartTime {
     position: relative;
@@ -406,6 +460,8 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'distance learners' */
+
 #navBarDistanceLearners {
     position: relative;
     padding-left:1px;
@@ -413,12 +469,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'short courses' */
+
 #navBarShortCourses {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the side bar header 1 */
 
 #sideBarHeader1 {
     position: relative;
@@ -428,12 +488,16 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the nav bar 'head of school' */
+
 #navBarHeadOfSchool {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'professors' */
 
 #navBarProfessors {
     position: relative;
@@ -442,12 +506,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'senor lecturers' */
+
 #navBarSenorLecturers {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'reader' */
 
 #navBarReader {
     position: relative;
@@ -456,6 +524,8 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'teaching fellows' */
+
 #navBarTeachingFellows {
     position: relative;
     padding-left:1px;
@@ -463,12 +533,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'lecturers' */
+
 #navBarLecturers {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for staff header 1 */
 
 #staffHeader1 {
     position: relative;
@@ -478,6 +552,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for staff header 2 */
+
 #staffHeader2 {
     position: relative;
     padding-top: 10px;
@@ -485,6 +561,8 @@ color: #f1f1f1;
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Styling for staff page image 1 */
 
 #staffImage1 img {
     position: relative;
@@ -494,6 +572,8 @@ color: #f1f1f1;
     padding-left:0px;
 }
 
+/* Styling for staff page image 2 */
+
 #staffImage2 img {
     position: relative;
     height: 170px;
@@ -502,6 +582,8 @@ color: #f1f1f1;
     padding-left:0px;
 }
 
+/* Styling for staff page image 3 */
+
 #staffImages3 img{
     position: relative;
     height: 170px;
@@ -509,6 +591,8 @@ color: #f1f1f1;
     padding-top: 0px;
     padding-left:0px;
 }
+
+/* Styling for staff header 3 */
 
 #staffHeader3 {
     position: relative;
@@ -519,6 +603,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for staff text 1 */
+
 #staffText1 {
     position: relative;
     padding-top: 0px;
@@ -527,6 +613,8 @@ color: #f1f1f1;
     font-weight: normal;
     font-size: 18px;
 }
+
+/* Styling for staff header 4 */
 
 #staffHeader4 {
     position: relative;
@@ -537,6 +625,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for staff text 2 */
+
 #staffText2 {
     position: relative;
     padding-top: 0px;
@@ -545,6 +635,8 @@ color: #f1f1f1;
     font-weight: normal;
     font-size: 18px;
 }
+
+/* Styling for staff header 5 */
 
 #staffHeader5 {
     position: relative;
@@ -555,6 +647,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for staff text 3 */
+
 #staffText3 {
     position: relative;
     padding-top: 0px;
@@ -564,6 +658,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the side bar header */
+
 #sideBarHeader2 {
     position: relative;
     padding-top: 10px;
@@ -572,12 +668,16 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the nav bar 'news' */
+
 #navBarNews {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'events' */
 
 #navBarEvents {
     position: relative;
@@ -586,6 +686,8 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'publications' */
+
 #navBarPublications {
     position: relative;
     padding-left:1px;
@@ -593,12 +695,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'find an expert' */
+
 #navBarFindAnExpert {
     position: relative;
     padding-left:1px;
     padding-top:0px;
     font-size:17px;
 }
+
+/* Styling for the news header 1 */
 
 #newsHeader1 {
     position: relative;
@@ -608,6 +714,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the news header 2 */
+
 #newsHeader2 {
     position: relative;
     padding-top: 10px;
@@ -615,6 +723,8 @@ color: #f1f1f1;
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Styling for the news header 3 */
 
 #newsHeader3 {
     position: relative;
@@ -624,6 +734,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the news image 1 */
+
 #newsImage1 img {
     position: relative;
     height: 140px;
@@ -631,6 +743,8 @@ color: #f1f1f1;
     padding-top: 0px;
     padding-left:2px;
 }
+
+/* Styling for the news text 1 */
 
 #newsText1 {
     position: relative;
@@ -640,6 +754,8 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the news header 4 */
+
 #newsHeader4 {
     position: relative;
     padding-top: 0px;
@@ -647,6 +763,8 @@ color: #f1f1f1;
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Styling for the news image 2 */
 
 #newsImage2 img {
     position: relative;
@@ -656,6 +774,8 @@ color: #f1f1f1;
     padding-left:2px;
 }
 
+/* Styling for the news text 2 */
+
 #newsText2 {
     position: relative;
     padding-top: 0px;
@@ -663,6 +783,8 @@ color: #f1f1f1;
     font-weight: normal;
     font-size: 18px;
 }
+
+/* Styling for the side bar header 3 */
 
 #sideBarHeader3 {
     position: absolute;
@@ -672,12 +794,16 @@ color: #f1f1f1;
     font-size: 18px;
 }
 
+/* Styling for the nav bar 'how to find us' */
+
 #navBarHowToFindUs {
     position: absolute;
     padding-left:1px;
     padding-top:35px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'transport information' */
 
 #navBarTransportInformation {
     position: absolute;
@@ -686,6 +812,8 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'prospectuses and guides' */
+
 #navBarProspectusesAndGuides {
     position: absolute;
     padding-left:1px;
@@ -693,12 +821,16 @@ color: #f1f1f1;
     font-size:17px;
 }
 
+/* Styling for the nav bar 'find an expert' */
+
 #navBarFindAnExpert {
     position: absolute;
     padding-left:1px;
     padding-top:116px;
     font-size:17px;
 }
+
+/* Styling for the nav bar 'emergency contact details' */
 
 #navBarEmergencyContactDetails {
     position: absolute;
