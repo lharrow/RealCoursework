@@ -2,83 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--- Title for the page, ie, what is shown in the tab --->
+
+    <!--- Title for the page, ie, what is shown in the tab --->
     <title>News</title>
+
+
     <link rel="stylesheet" href="unsemantc-grid-responsive-tablet.css">
+
 <!-- Connection made to the stylesheet --->
     <link rel="stylesheet" type="text/css" href="MainCSS.css">
+
 <!--- Allowing accessing to the google font 'Roboto' --->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+<!--- Closing the head tag --->
 </head>
+
+<!--- Opening the body tag --->
 <body>
+
+<!--- Opening the header tag --->
 <header>
+
+<!--- Closing the header tag --->
 </header>
 
+<!--- Opening the main tag, which is where all of the code is placed --->
 <main>
+
+    <!--- Creating a class called 'nav', which is used throughout the code for the navigational bar at the top of the page --->
+    <!--- The nav bar is implemented using the same code for all main pages --->
     <div class="nav">
+
+        <!--- Creating an unordered list --->
         <ul>
-            <!--- Styling of navigation bar needs to be included --->
-            <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
-            Image is sized but will be resized in CSS -->
+
+            <!--- RGU logo image --->
             <li><img src="./Images/RGULogo.png"></li>
 
-            <!--- White spacing and link to 'Home' page --->
+            <!--- Link to the 'homepage' page, as a way back to the main page from any other page --->
             <li><a href="./Homepage.html">Homepage</a></li>
 
-            <!--- White spacing and link to 'Course' page --->
+            <!--- Link to the 'Courses' page --->
             <li> <a href="./Courses.html">Courses</a></li>
 
-            <!--- White spacing and link to 'Staff' page --->
+            <!--- Link to 'Staff' page --->
             <li><a href="./Staff.html">Staff</a></li>
 
-            <!--- White spacing and link to 'News' page --->
+            <!--- Link to 'News' page --->
             <li><a href="./News.html">News</a></li>
 
-            <!--- White spacing and link to 'Contact' page --->
+            <!--- Link to 'Contact' page --->
             <li><a href="./Contact.html">Contact</a></li>
 
-            <!--- White spacing and search bar --->
-            <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <!--- Search bar (not functional) --->
             <li><input type="text" name="search" placeholder="Search..."></li>
+
+        <!--- Closing the unordered list --->
         </ul>
+
+    <!--- Closing the 'nav' class --->
     </div>
 
+    <!--- Creating a class called 'header', which is used throughout the code to display an image and text on all pages --->
     <div class="header">
-        <!--- School heading and image --->
-        <!--- Placeholder image is only used until we have actual images decided --->
+
+        <!--- Creating a class called 'header', which is used to display an image that covers the whole length of the page --->
         <div class="banner">
+
+            <!-- Banner image --->
             <img src="./Images/rgubanner.jpg">
+
+        <!-- Closing the 'banner' class --->
         </div>
+
+        <!--- Header text within the image --->
         <h1>School of Computing Science and Digital Media</h1>
+
+    <!--- Closing the 'header' class --->
     </div>
 
+    <!--- Creating a class called 'sidebar', which is used throughout the code for the navigational bar at the side of the page --->
+    <!--- The side bar is implemented using the same code for all main pages --->
     <div class="Sidebar">
+
+        <!--- Creating a class called 'container-sidebar', which is used to contain the sidebar in a container --->
         <div class = "container-sidebar">
-        <!-- Unordered list used to create bulletpoints for links --->
+
+        <!--- Creating an ordered list --->
         <ol>
 
-        <!--- still to add blue bars surrounding text --->
         <!--- Sidebar for navigation, 'News and Events' --->
         <h2 id = "sideBarHeader2">News and Events</h2>
 
+        <!--- Link to news page, with link embedded in text --->
         <p id = "navBarNews"><a href="./News/News.html">News</a></p>
 
-        <!-- 'Events' --->
+        <!--- Link to events page, with link embedded in text --->
         <p id = "navBarEvents"><a href="./News/Events.html">Events</a></p>
 
-        <!-- 'Publications' --->
+        <!--- Link to publications page, with link embedded in text --->
         <p id = "navBarPublications"><a href="./News/Publications.html">Publications</a></p>
 
-        <!-- 'Find an Expert' --->
+        <!--- Link to find an expert, with link embedded in text --->
         <p id = "navBarFindAnExpert"><a href="./News/FindanExpert.html">Find an Expert</a></p>
 
+        <!--- Closing the ordered list --->
         </ol>
 
+    <!--- Closing the container-sidebar class --->
     </div>
+
+<!--- Closing the sidebar class --->
 </div>
 
-    <div class="Headers">
+    <!--- THIS SECTION IS COMMENTED OUT AS WE COULD NOT GET THE HEADERS WORKING WITH CONTAINERS --->
+
+    <!---<div class="Headers">
         <!-- The positioning of these headings are identical to 'Courses' page headings.
         Because of this the positioning isn't correct. Can be edited in CSS --->
 
@@ -90,8 +130,14 @@
     </div>
     -->
 
+    <!--- Creating a class called 'MainBody', which is used to contain code for all the main information on the page --->
     <DIV class="MainBody">
+
+        <!--- THE CODE BELOW IS COPIED THROUGHOUT ALL OF THE WEBISTE, AND IS REQUIRED TO CONTAIN ALL OF THE INFORMATION WITHIN BOXES --->
+
+        <!--- Creating a class called 'container-c', which is used to contain the information is a box --->
         <div class = "container-news">
+
             <!-- First header for body --->
             <h2 id = "newsHeader3">Computing News</h2>
 
@@ -100,9 +146,13 @@
 
             <!-- First block of text under picture --->
             <h2 id = "newsText1">Lorem ipsum dolor sit amet, cum ei<BR/>ullum nemore, in tritani nusquam<BR/>convenire pro, invidunt cotidieque ad vel<BR/>. Per persius voluptaria cu, suas blandit<BR/>expetenda nec ad. Eu vel exerci gloriatur<BR/>ea mollis fabellas patrioque mei. Id vel<BR/>wisi exerci invenire, ne his vocibus detraxit.<BR/><BR/>Option fabulas propriae eos ei. Magna<BR/>viderer et usu, eum ea omnium fabulas<BR/>reprimique. Alia hendrerit disputando<BR/>id mea, ad veritus expetenda assueverit<BR/>mel. Te his posse mundi. Has te persius<BR/>rationibus.</h2>
+
+        <!--- Closing the container-c class --->
         </div>
 
+        <!--- Creating a class called 'container-news', which is used to contain the information is a box --->
         <div class = "container-news">
+
             <!-- Second header for body --->
             <h2 id = "newsHeader4">Computing Events</h2>
 
@@ -112,10 +162,18 @@
             <!-- Second block of text under picture --->
             <h2 id = "newsText2">Lorem ipsum dolor sit amet, cum ei<BR/>ullum nemore, in tritani nusquam<BR/>convenire pro, invidunt cotidieque ad vel<BR/>. Per persius voluptaria cu, suas blandit<BR/>expetenda nec ad. Eu vel exerci gloriatur<BR/>ea mollis fabellas patrioque mei. Id vel<BR/>wisi exerci invenire, ne his vocibus detraxit.<BR/><BR/>Option fabulas propriae eos ei. Magna<BR/>viderer et usu, eum ea omnium fabulas<BR/>reprimique. Alia hendrerit disputando<BR/>id mea, ad veritus expetenda assueverit<BR/>mel. Te his posse mundi. Has te persius<BR/>rationibus</h2>
 
+        <!--- Closing the container-news class --->
         </div>
 
-        <DIV style="position: absolute; top:400px; left:1050px"><a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </DIV>
-    </main>
+        <!--- Twitter newsfeed --->
+        <!--- STYLING IS ON HTML, WAS TO BE SWAPPED INTO CSS BUT RAN OUT OF TIME --->
+        <DIV style="position: absolute; top:400px; left:1050px"><a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></DIV>
+
+<!--- Closing the main tag --->
+</main>
+
+<!--- Closing the body tag --->
 </body>
+
+<!--- Closing the html tag --->
 </html>

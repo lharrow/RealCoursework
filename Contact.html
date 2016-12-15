@@ -2,115 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--- Title for the page, ie, what is shown in the tab --->
+
+<   <!--- Title for the page, ie, what is shown in the tab --->
     <title>Contact</title>
+
     <link rel="stylesheet" href="unsemantc-grid-responsive-tablet.css">
-<!-- Connection made to the stylesheet --->
+
+<   <!-- Connection made to the stylesheet --->
     <link rel="stylesheet" type="text/css" href="MainCSS.css">
-<!--- Allowing accessing to the google font 'Roboto' --->
+
+<   <!--- Allowing accessing to the google font 'Roboto' --->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <!--- Closing the head tag --->
 </head>
+
+<!--- Opening the body tag --->
 <body>
+
+<!--- Opening the header tag --->
 <header>
+
+    <!--- Closing the header tag --->
 </header>
 
-<>
+<!--- Opening the main tag, which is where all of the code is placed --->
+<main>
+
+    <!--- Creating a class called 'nav', which is used throughout the code for the navigational bar at the top of the page --->
+    <!--- The nav bar is implemented using the same code for all main pages --->
     <div class="nav">
+
+        <!--- Creating an unordered list --->
         <ul>
-            <!--- Styling of navigation bar needs to be included --->
-            <!--- Link is directly from Google Images as I didn't know where to save all images too currently.
-            Image is sized but will be resized in CSS -->
+
+            <!--- RGU logo image --->
             <li><img src="./Images/RGULogo.png"></li>
 
-            <!--- White spacing and link to 'Home' page --->
+            <!--- Link to the 'homepage' page, as a way back to the main page from any other page --->
             <li><a href="./Homepage.html">Homepage</a></li>
 
-            <!--- White spacing and link to 'Course' page --->
+            <!--- Link to the 'Courses' page --->
             <li> <a href="./Courses.html">Courses</a></li>
 
-            <!--- White spacing and link to 'Staff' page --->
+            <!--- Link to 'Staff' page --->
             <li><a href="./Staff.html">Staff</a></li>
 
-            <!--- White spacing and link to 'News' page --->
+            <!--- Link to 'News' page --->
             <li><a href="./News.html">News</a></li>
 
-            <!--- White spacing and link to 'Contact' page --->
+            <!--- Link to 'Contact' page --->
             <li><a href="./Contact.html">Contact</a></li>
 
-            <!--- White spacing and search bar --->
-            <!--- Search bar needs to be moved to the rigt of the navigation bar --->
+            <!--- Search bar (not functional) --->
             <li><input type="text" name="search" placeholder="Search..."></li>
+
+            <!--- Closing the unordered list --->
         </ul>
+
+        <!--- Closing the 'nav' class --->
     </div>
 
-<div class="header">
-    <!--- School heading and image --->
-    <!--- Placeholder image is only used until we have actual images decided --->
+    <!--- Creating a class called 'header', which is used to display an image that covers the whole length of the page --->
     <div class="banner">
-        <img src="http://campusmoodle.rgu.ac.uk/rv-tour/rv-virtual-tour/images/nav/image-map.jpg">
-    </div>
-    <h1>School of Computing Science and Digital Media</h1>
-</div>
 
+        <!-- Banner image --->
+        <img src="./Images/rgubanner.jpg">
+
+        <!-- Closing the 'banner' class --->
+    </div>
+
+    <!--- Header text within the image --->
+    <h1>School of Computing Science and Digital Media</h1>
+
+    <!--- Closing the 'header' class --->
+    </div>
+
+    <!--- Creating a class called 'sidebar', which is used throughout the code for the navigational bar at the side of the page --->
+    <!--- The side bar is implemented using the same code for all main pages --->
     <div class="Sidebar">
-        <ol>
-            <!--- still to add blue bars surrounding text --->
-            <!--- Sidebar for navigation, 'How To Find Us' --->
+
+        <!--- Creating a class called 'container-sidebar', which is used to contain the sidebar in a container --->
+        <div class = "container-sidebar">
+
+            <!--- Creating an ordered list --->
+            <ol>
+
+            <!--- Sidebar for navigation, 'Contact Us' --->
             <h2 id = "sideBarHeader3">Contact Us</h2>
 
+            <!--- Link to how to find us page, with link embedded in text --->
             <p id = "navBarHowToFindUs"><a href="./ContactUs/HowToFindUs.html">How To Find Us</a></p>
 
-            <!-- 'Transport Information' --->
-
+            <!--- Link to transport information page, with link embedded in text --->
             <p id = "navBarTransportInformation"><a href="./ContactUs/TransportInformation.html">Transport Information</a></p>
 
-            <!-- 'Prospectuses and Guides' --->
+            <!--- Link to prospectuses and guides page, with link embedded in text --->
             <p id = "navBarProspectusesAndGuides"><a href="./ContactUs/ProspectusesandGuides.html">Prospectuses and Guides</a></p>
 
-            <!-- 'Find an Expert' --->
+                <!--- Link to find an expert page, with link embedded in text --->
             <p id = "navBarFindAnExpert"><a href="./ContactUs/VisitUs.html">Visit Us</a></p>
 
-            <!-- 'Emergency Contact Details' --->
+                <!--- Link to emergency contact details page, with link embedded in text --->
             <p id = "navBarEmergencyContactDetails"><a href="./ContactUs/EmergencyContactDetails.html">Emergency Contact Details</a></p>
-        </ol>
+
+            <!--- Closing the ordered list --->
+            </ol>
+
+        <!--- Closing the container-sidebar class --->
+        </div>
+
+    <!--- Closing the sidebar class --->
     </div>
 
+    <!--- Creating a class called 'MainInfo', which is used to contain code for some the main information on the page --->
     <div class = "MainInfo">
-    <!-- This is to be re-positied and that in CSS --->
 
-        <!-- Text styling to be put into style sheet --->
+        <!-- First header for body --->
         <h2 id = "contactHeader1">Contact Us</h2>
 
-        <!-- Text styling to be put into style sheet --->
+        <!-- Second header for body --->
         <h2 id = "contactHeader2">Telephone and Email</h2>
 
+        <!-- First block of text --->
         <h2 id = "contactText1">Lorem ipsum dolor sit amet,<BR/> consectetur adipiscing elit. Phasellus<BR/> ligula: 01234 5678910<BR/> eu:0123456@rgu.ac.uk</h2>
 
-        <!-- Include google maps instead of image here --->
+        <!-- Google Maps embedded within page --->
         <iframe style="position: absolute; top:450px; left:630px; height:450px; width:450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.0905207161973!2d-2.143210784074411!3d57.118416080940484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488410483d2f0941%3A0x5d8969688e77366a!2sRobert+Gordon+University+Aberdeen%2C+Garthdee+Campus!5e0!3m2!1sen!2suk!4v1480361759332" width="450" height="450" frameborder="20"  allowfullscreen></iframe>
+
+    <!--- Closing the MainInfo class --->
     </div>
 
+    <!--- Creating a class called 'MainInfo', which is used to contain code for the remainder of the main information on the page --->
 <div class = "SecondaryInfo">
 
-    <!-- Header text 'Follow us' --->
+    <!-- Third header for body --->
     <h2 id = "contactHeader3">Follow Us</h2>
 
-    <!--- ALL IMAGES ARE PLACEHOLDERS UNTIL WE CREATE LINKS/REAL IMAGES --->
-
-    <!-- First image --->
-    <!-- Twiiter Link --->
+    <!-- Twiiter Link embedded within twitter logo image--->
     <h2 id = "contactTwiterLink"><a href= "https://twitter.com/RGUComputing"><img src="https://www.webceo.com/blog/wp-content/uploads/2015/11/twitter.jpg" alt = "Twitter Link"></a></h2>
 
-    <!-- Second image --->
-    <!-- Facebook Link --->
+    <!-- Facebook Link embedded within facebook logo image--->
     <h2 id = "contactFacebookLink"><a href = "https://www.facebook.com/RobertGordonUniComputing/"><img src="https://www.facebook.com/images/fb_icon_325x325.png" alt = "Facebook Link"></a></h2>
 
-    <!-- Third image --->
-    <!-- YouTube Link --->
+    <!-- YouTube Link embedded within Youtube logo image--->
     <h2 id = "contactYoutubeLink"><a href=" https://www.youtube.com/user/RobertGordonUniCSDM"><img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/05/best-quality-youtube-logo-download-png-format.png" alt = "YouTube Link"></a></h2>
 
+<!--- Closing the main tag --->
+</main>
 
-
-</div>
+<!--- Closing the body tag --->
 </body>
+
+<!--- Closing the html tag --->
 </html>
